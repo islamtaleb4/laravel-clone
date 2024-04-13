@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="flex justify-center items-center w-full mt-10">
+        <div class="w-1/5 flex items-center justify-end max-[1200px]:w-full max-[1200px]:justify-start ">
+            <img src="/src/images/Laravel-Logo.wine.svg" class="w-20 h-20" alt="">
+            <h1 class="text-red-500 text-4xl font-teko">Laravel</h1>
+        </div>
+        <div class="min-[1200px]:hidden">
+            <button id="burger-menu" type="button">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+        </div>
+
+        <div class="w-2/5 flex justify-between mx-20 max-[1200px]:hidden">
+            <a href="" class="font-teko text-3xl">Forge</a>
+            <a href="" class="font-teko text-3xl">Vapor</a>
+            <a href="" class="font-teko text-3xl">Ecosystem</a>
+            <a href="" class="font-teko text-3xl">News</a>
+            <a href="" class="font-teko text-3xl">Partners</a>
+            <a href="" class="font-teko text-3xl">Careers</a>
+        </div>
+
+        <div class="w-1/5 flex items-center justify-start space-x-10 max-[1200px]:hidden">
+            <button>
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </button>
+            <button type="button"
+                class="text-white  bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                DOCUMENTATION</button>
+        </div>
+
+    </div>
+
+    <div id="mobile-menu" class="min-[1200px]:hidden flex hidden flex-col bg-white items-center space-y-2 mt-5">
+        <a href="" class="font-teko text-3xl">Forge</a>
+        <a href="" class="font-teko text-3xl">Vapor</a>
+        <a href="" class="font-teko text-3xl">Ecosystem</a>
+        <a href="" class="font-teko text-3xl">News</a>
+        <a href="" class="font-teko text-3xl">Partners</a>
+        <a href="" class="font-teko text-3xl">Careers</a>
+        <button>
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </button>
+        <button type="button"
+            class="text-white  bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+            DOCUMENTATION</button>
+    </div>
+
+    <div
+        class="flex h-1/5 justif-center items-center  flex-col w-full text-center mt-[100px] max-[600px]:px-10 max-[600px]:mt-10">
+        <div class="w-[850px] text-center mt-8">
+            <h1 class="text-7xl font-teko font-semibold max-[600px]:text-4xl">The PHP Framework</h1><br>
+            <h1 class="text-7xl font-teko font-semibold text-red-600  max-[600px]:text-4xl">for Web Artisans</h1>
+        </div>
+        <div class="text-center mt-8">
+            <p class="text-center font-teko text-2xl text-gray-800 max-[600px]:text-xxl">Laravel is a web application
+                framework with expressive, elegant syntax.</p>
+            <p class="text-center font-teko text-2xl text-gray-800 max-[600px]:text-xxl">We’ve already laid the
+                foundation — freeing you to create without sweating the small things.</p>
+        </div>
+        <div
+            class="flex justify-center items-start p-5 space-x-24 text-center w-[600px] h-[200px] mt-8 max-[600px]:space-x-0">
+            <button
+                class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br hover:bg-white hover:border hover:border-solid hover:border-red-600 hover:text-red-600 dark:text-white">
+                <span
+                    class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-red-600 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                    GET STARTED
+                </span>
+            </button>
+            <button type="button"
+                class=" bg-gradient-to-br from-white-600 mb-2 border border-solid border-red-600 text-red-600 hover:bg-red-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">WATCH
+                LARACASTS</button>
+        </div>
+
+    </div>
+
+    <div class="flex max-[1200px]:flex-col">
+        <div class="w-3/5 p-20 flex flex-col min-[700px]:justify-end min-[700px]:items-end max-[1200px]:w-full">
+            <div class="w-4/5 max-[1200px]:w-full flex min-[700px]:justify-center min-[1000px]:justify-start">
+                <h1 class="text-6xl font-teko">Write code for the joy of it.</h1>
+            </div>
+
+            <div class="w-4/5 max-[1200px]:w-full">
+                <p
+                    class="min-[700px]:text-center min-[1000px]:text-start font-teko text-2xl text-gray-800 max-[600px]:text-xxl">
+                    Laravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts
+                    amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide
+                    a wonderful developer experience.</p>
+            </div>
+            <div class="w-4/5 mt-10 max-[1200px]:w-full flex min-[700px]:justify-center min-[1000px]:justify-start">
+                <button type="button"
+                    class=" bg-gradient-to-br from-white-600 mb-2 border border-solid border-red-600 text-red-600 hover:bg-red-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    START LEARNING</button>
+            </div>
+        </div>
+        <div class="w-3/12 max-[1200px]:-order-1 max-[1200px]:self-center max-[1200px]:w-1/2">
+            <img src="/src/images/laravel.png" alt="">
+        </div>
+    </div>
+
+    <div class="flex max-[1000px]:flex-col w-full mt-[100px]">
+        <div class="flex justify-center items-center w-full max-[1000px]:full">
+            <img class="w-1/2 flex" src="/src/images/3d-laravel-programming-framework-logo-free-png.png" alt="">
+        </div>
+
+        <div class="mr-10 max-[1000px]:items-center max-[1000px]:w-full max-[1000px]:p-20 flex items-start justify-center flex-col space-y-4">
+            <h1 class="text-6xl font-teko max-[1000px]:text-center">One Framework, Many Flavors</h1>
+            <p class="font-teko text-2xl text-gray-800 max-[600px]:text-xxl">Build robust, full-stack applications in
+                PHP using Laravel and Livewire. Love JavaScript? Build a monolithic React or Vue driven frontend by
+                pairing Laravel with Inertia.
+
+                Or, let Laravel serve as a robust backend API for your Next.js application, mobile application, or other
+                frontend. Either way, our starter kits will have you productive in minutes.
+            </p>
+                <button type="button"
+                    class="bg-gradient-to-br from-white-600 mb-2 border border-solid border-red-600 text-red-600 hover:bg-red-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    EMPOWER YOUR FRONTEND
+                </button>
+        </div>
+    </div>
+
+
+    <div class="flex flex-col items-center justify-center mt-[150px] w-full">
+        <div class="w-4/12 text-center max-[700px]:w-full max-[350px]:p-5 max-[950px]:w-6/12">
+            <h1 class="text-5xl font-teko">Loved by thousands of developers around the world.</h1>
+        </div>
+        <div class="w-full p-10 flex flex-wrap justify-center">
+            <div class="w-3/12 flex flex-col p-10 border border-gray-200 m-2 min-w-64">
+                <div>
+                    <p class="font-teko">“I’ve been using Laravel for nearly a decade and never been tempted to switch to anything else.“</p>
+                </div>
+                <div class="flex items-center mt-5">
+                    <div>
+                        <img class="w-10" src="/src/images/adam-wathan.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <span class="font-teko">Adam Wathan</span>
+                    </div>
+                    
+                </div>
+                <div class="ml-[55px]">
+                    <span class="font-teko">Creator of <a href="https://www.tailwindcss.com/" class="text-red-600 font-teko" target="_blank">Tailwind CSS</a></span>
+                </div>
+            </div>
+
+            <div class="w-3/12 flex flex-col p-10 border border-gray-200 m-2 min-w-64">
+                <div>
+                    <p class="font-teko">“Laravel’s best-in-class testing tools give me the peace of mind to ship robust apps quickly.“</p>
+                </div>
+                <div class="flex items-center mt-5">
+                    <div>
+                        <img class="w-10" src="/src/images/michael-dyrynda.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <span class="font-teko">Michael Dyrynda</span>
+                    </div>
+                    
+                </div>
+                <div class="ml-[55px]">
+                    <span class="font-teko">Laravel Artisan + Laracon AU Organizer</span>
+                </div>
+            </div>
+
+            <div class="w-3/12 flex flex-col p-10 border border-gray-200 m-2 min-w-64">
+                <div>
+                    <p class="font-teko">“Laravel has helped me launch products quicker than any other solution, allowing me to get to market faster and faster as the community has evolved.“</p>
+                </div>
+                <div class="flex items-center mt-5">
+                    <div>
+                        <img class="w-10" src="/src/images/steve-mcdougall.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <span class="font-teko">Steve McDougall</span>
+                    </div>
+                    
+                </div>
+                <div class="ml-[55px]">
+                    <span class="font-teko">Creator of <a href="https://www.github.com/JustSteveKing/laravel-transporter" class="font-teko text-red-600" target="_blank">Laravel Transporter</a></span>
+                </div>
+            </div>
+
+            <div class="w-3/12 flex flex-col p-10 border border-gray-200 m-2 min-w-64">
+                <div>
+                    <p class="font-teko">“Laravel takes the pain out of building modern, scalable web apps.“</p>
+                </div>
+                <div class="flex items-center mt-5">
+                    <div>
+                        <img class="w-10" src="/src/images/aaron-francis.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <span class="font-teko">Aaron Francis</span>
+                    </div>
+                    
+                </div>
+                <div class="ml-[55px]">
+                    <span class="font-teko">Creator of <a href="https://www.torchlight.dev/" class="text-red-600" target="_blank">Torchlight</a> and 
+                    <a href="https://www.github.com/hammerstonedev/sidecar" class="font-teko text-red-600" target="_blank">Sidecar</a></span>
+                </div>
+            </div>
+
+            <div class="w-3/12 flex flex-col p-10 border border-gray-200 m-2 min-w-64">
+                <div>
+                    <p class="font-teko">“Laravel has been like rocket fuel for my career and business.“</p>
+                </div>
+                <div class="flex items-center mt-5">
+                    <div>
+                        <img class="w-10" src="/src/images/chris-arter.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <span class="font-teko">Chris Arter</span>
+                    </div>
+                    
+                </div>
+                <div class="ml-[55px]">
+                    <span class="font-teko">Developer at <a href="https://www.bankrate.com/" class="font-teko text-red-600" target="_blank">Bankrate</a></span>
+                </div>
+            </div>
+
+            <div class="w-3/12 flex flex-col p-10 border border-gray-200 m-2 min-w-64">
+                <div>
+                    <p class="font-teko">“I've been using Laravel for every project over the past ten years in a time where a new framework launches every day. To this date, there's just nothing like it.“</p>
+                </div>
+                <div class="flex items-center mt-5">
+                    <div>
+                        <img class="w-10" src="/src/images/adam-wathan.jpg" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <span class="font-teko">Philo Hermans</span>
+                    </div>
+                    
+                </div>
+                <div class="ml-[55px]">
+                    <span class="font-teko">Founder of <a href="https://www.anystack.sh/" class="font-teko text-red-600" target="_blank">Anystack</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex p-20 max-[1000px]:flex-col items-center">
+        <div class="w-1/2 flex justify-center max-[1000px]:w-[300px]">
+            <img class="w-3/5 max-[1000px]:w-full rotate-3" src="/src/images/partners.png" alt="">
+        </div>
+        <div class="w-1/2 mt-10 max-[1000px]:w-full max-[1000px]:items-center flex items-start justify-center flex-col space-y-5">
+            <h1 class="text-6xl font-teko max-[1000px]:text-center">Hire a partner for your next project</h1>
+            <p  class="min-[1000px]:text-center max-[1000px]:text-center min-[1000px]:text-start font-teko text-2xl text-gray-800 max-[600px]:text-xxl">Laravel Partners are elite shops providing top-notch Laravel development and consulting. Each of our partners can help you craft a beautiful, well-architected project.</p>      
+            <button type="button"
+                    class=" bg-gradient-to-br from-white-600 mb-2 border border-solid border-red-600 text-red-600 hover:bg-red-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    BROWSE PARTNERS</button>
+        </div>
+    </div>
+
+    <div class="p-[100px] flex mt-[200px] border-t max-[1000px]:p-0 max-[1000px]:flex-col max-[1000px]:ml-0">
+        <div class="w-1/4 p-1 flex items-start flex-col max-[1000px]:w-full max-[1000px]:items-start min-[1000px]:ml-[100px]">
+            <img src="/src/images/Laravel-Logo.wine.svg" class="w-20 h-20" alt="">
+            <div class="p-3">
+                <p class="font-teko text-2xl text-start text-gray-800 max-[600px]:text-xxl">Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.</p>
+            </div>
+            <div class="flex space-x-5 p-1">
+                <a href="https://www.twitter.com/laravelphp"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                    <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.github.com/laravel">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                        <path d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.discord.com/invite/laravel">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                        <path d="M 41.625 10.769531 C 37.644531 7.566406 31.347656 7.023438 31.078125 7.003906 C 30.660156 6.96875 30.261719 7.203125 30.089844 7.589844 C 30.074219 7.613281 29.9375 7.929688 29.785156 8.421875 C 32.417969 8.867188 35.652344 9.761719 38.578125 11.578125 C 39.046875 11.867188 39.191406 12.484375 38.902344 12.953125 C 38.710938 13.261719 38.386719 13.429688 38.050781 13.429688 C 37.871094 13.429688 37.6875 13.378906 37.523438 13.277344 C 32.492188 10.15625 26.210938 10 25 10 C 23.789063 10 17.503906 10.15625 12.476563 13.277344 C 12.007813 13.570313 11.390625 13.425781 11.101563 12.957031 C 10.808594 12.484375 10.953125 11.871094 11.421875 11.578125 C 14.347656 9.765625 17.582031 8.867188 20.214844 8.425781 C 20.0625 7.929688 19.925781 7.617188 19.914063 7.589844 C 19.738281 7.203125 19.34375 6.960938 18.921875 7.003906 C 18.652344 7.023438 12.355469 7.566406 8.320313 10.8125 C 6.214844 12.761719 2 24.152344 2 34 C 2 34.175781 2.046875 34.34375 2.132813 34.496094 C 5.039063 39.605469 12.972656 40.941406 14.78125 41 C 14.789063 41 14.800781 41 14.8125 41 C 15.132813 41 15.433594 40.847656 15.621094 40.589844 L 17.449219 38.074219 C 12.515625 36.800781 9.996094 34.636719 9.851563 34.507813 C 9.4375 34.144531 9.398438 33.511719 9.765625 33.097656 C 10.128906 32.683594 10.761719 32.644531 11.175781 33.007813 C 11.234375 33.0625 15.875 37 25 37 C 34.140625 37 38.78125 33.046875 38.828125 33.007813 C 39.242188 32.648438 39.871094 32.683594 40.238281 33.101563 C 40.601563 33.515625 40.5625 34.144531 40.148438 34.507813 C 40.003906 34.636719 37.484375 36.800781 32.550781 38.074219 L 34.378906 40.589844 C 34.566406 40.847656 34.867188 41 35.1875 41 C 35.199219 41 35.210938 41 35.21875 41 C 37.027344 40.941406 44.960938 39.605469 47.867188 34.496094 C 47.953125 34.34375 48 34.175781 48 34 C 48 24.152344 43.785156 12.761719 41.625 10.769531 Z M 18.5 30 C 16.566406 30 15 28.210938 15 26 C 15 23.789063 16.566406 22 18.5 22 C 20.433594 22 22 23.789063 22 26 C 22 28.210938 20.433594 30 18.5 30 Z M 31.5 30 C 29.566406 30 28 28.210938 28 26 C 28 23.789063 29.566406 22 31.5 22 C 33.433594 22 35 23.789063 35 26 C 35 28.210938 33.433594 30 31.5 30 Z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/laravelphp">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                        <path d="M 9 4 C 6.24 4 4 6.24 4 9 L 4 41 C 4 43.76 6.24 46 9 46 L 41 46 C 43.76 46 46 43.76 46 41 L 46 9 C 46 6.24 43.76 4 41 4 L 9 4 z M 15 8 L 17.400391 8 L 19 12 L 20.599609 8 L 23 8 L 20 15 L 20 19 L 18 19 L 18 14.990234 C 17.4 13.380234 15.41 9.01 15 8 z M 25 11 C 25.89 11 26.770078 11.269219 27.330078 11.949219 C 27.760078 12.439219 28 13.229531 28 14.269531 L 28 15.730469 C 28 16.770469 27.800859 17.490469 27.380859 17.980469 C 26.820859 18.650469 25.89 19 25 19 C 24.11 19 23.200625 18.650469 22.640625 17.980469 C 22.210625 17.490469 22 16.770469 22 15.730469 L 22 14.279297 C 22 13.239297 22.229922 12.439219 22.669922 11.949219 C 23.229922 11.269219 23.99 11 25 11 z M 29 11 L 31 11 L 31 17 C 31.05 17.27 31.339375 17.390625 31.609375 17.390625 C 32.019375 17.390625 32.54 16.910859 33 16.380859 L 33 11 L 35 11 L 35 19 L 33 19 L 33 17.619141 C 32.19 18.409141 31.499844 19.000703 30.589844 18.970703 C 29.929844 18.950703 29.470234 18.710469 29.240234 18.230469 C 29.100234 17.950469 29 17.499844 29 16.839844 L 29 11 z M 25 12.619141 C 24.8625 12.619141 24.730859 12.649297 24.611328 12.701172 C 24.491797 12.753047 24.383594 12.827422 24.292969 12.919922 C 24.202344 13.012422 24.128906 13.122266 24.078125 13.244141 C 24.027344 13.366016 24 13.500625 24 13.640625 L 24 16.449219 C 24 16.729219 24.111719 16.984922 24.292969 17.169922 C 24.383594 17.262422 24.491797 17.336797 24.611328 17.388672 C 24.730859 17.440547 24.8625 17.470703 25 17.470703 C 25.1375 17.470703 25.269141 17.440547 25.388672 17.388672 C 25.747266 17.233047 26 16.869219 26 16.449219 L 26 13.640625 C 26 13.080625 25.55 12.619141 25 12.619141 z M 24.990234 22 L 25.009766 22 C 25.009766 22 31.719219 22.000312 36.199219 22.320312 C 36.829219 22.390313 38.190156 22.400391 39.410156 23.650391 C 40.370156 24.590391 40.679688 26.75 40.679688 26.75 C 40.679688 26.75 41 28.280547 41 30.810547 L 41 33.179688 C 41 35.709688 40.679688 37.240234 40.679688 37.240234 C 40.679688 37.240234 40.370156 39.399844 39.410156 40.339844 C 38.190156 41.589844 36.829219 41.599922 36.199219 41.669922 C 31.719219 41.989922 25 42 25 42 C 25 42 16.679141 41.919688 14.119141 41.679688 C 13.409141 41.549687 11.809844 41.589609 10.589844 40.349609 C 9.6298437 39.399609 9.3203125 37.240234 9.3203125 37.240234 C 9.3203125 37.240234 9 35.709688 9 33.179688 L 9 30.810547 C 9 28.280547 9.3203125 26.75 9.3203125 26.75 C 9.3203125 26.75 9.6298438 24.590391 10.589844 23.650391 C 11.809844 22.400391 13.170781 22.390312 13.800781 22.320312 C 18.280781 22.000312 24.990234 22 24.990234 22 z M 12 26 L 12 27.978516 L 14 27.978516 L 14 38 L 16 38 L 16 27.978516 L 18 27.978516 L 18 26 L 12 26 z M 25 26 L 25 38 L 27 38 L 27 36.75 C 27.631 37.531 28.453 38 29.125 38 C 29.877 38 30.533156 37.595313 30.785156 36.820312 C 30.904156 36.401313 30.992 36.01 31 35.125 L 31 32.375 C 31 31.387 30.866234 30.642656 30.740234 30.222656 C 30.488234 29.441656 29.878 29.005 29.125 29 C 28.145 28.993 27.75 29.5 27 30.375 L 27 26 L 25 26 z M 18 29 L 18 35.685547 C 18 36.407547 18.100469 36.891984 18.230469 37.208984 C 18.450469 37.722984 18.899062 38 19.539062 38 C 20.269062 38 21.21 37.485766 22 36.634766 L 22 38 L 24 38 L 24 29 L 22 29 L 22 35.269531 C 21.56 35.853531 20.919531 36.289062 20.519531 36.289062 C 20.259531 36.289062 20.05 36.179578 20 35.892578 L 20 29 L 18 29 z M 35.029297 29 C 34.021297 29 33.234063 29.317016 32.664062 29.916016 C 32.244062 30.358016 32 31.080578 32 32.017578 L 32 35.083984 C 32 36.014984 32.2685 36.666516 32.6875 37.103516 C 33.2585 37.702516 34.044172 38 35.076172 38 C 36.107172 38 36.918844 37.686781 37.464844 37.050781 C 37.704844 36.769781 37.858781 36.453563 37.925781 36.101562 C 37.943781 35.942563 38 35.511 38 35 L 36 35 L 36 35.798828 C 36 36.262828 35.552 36.638672 35 36.638672 C 34.448 36.638672 34 36.261828 34 35.798828 L 34 34 L 38 34 L 38 33.423828 L 38 31.978516 C 38 31.043516 37.770422 30.359016 37.357422 29.916016 C 36.804422 29.317016 36.019297 29 35.029297 29 z M 35 30.447266 C 35.552 30.447266 36 30.824109 36 31.287109 L 36 32.615234 L 34 32.615234 L 34 31.287109 C 34 30.823109 34.448 30.447266 35 30.447266 z M 28.220703 30.746094 C 28.765703 30.746094 29 31.081 29 32.125 L 29 34.875 C 29 35.919 28.765703 36.279297 28.220703 36.279297 C 27.909703 36.279297 27.316 36.066 27 35.75 L 27 31.375 C 27.316 31.063 27.909703 30.746094 28.220703 30.746094 z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="w-full flex justify-center flex-wrap">
+            <div class="w-1/6  mt-[95px] flex flex-col items-center max-[700px]:w-1/2">
+                <h1 class="text-center text-xl font-teko">HIGHLIGHTS</h1>
+                <div class="mt-10 flex flex-col">
+                    <a class="font-teko text-l text-gray-800" href="#">Release Notes</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Getting Started</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Routing</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Blade Templates</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Authentication</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Authorization</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Artisan Console</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Database</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Eloquent ORM</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Testing</a>
+                </div>
+            </div>
+    
+            <div class="w-1/6 mt-[95px] flex flex-col items-center max-[700px]:w-1/2">
+                <h1 class="text-center text-xl font-teko">RESOURCES</h1>
+                <div class="mt-10 flex flex-col">
+                    <a class="font-teko text-l text-gray-800" href="#">Laravel Bootcamp</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Laracasts</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Laravel News</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Laracon</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Laracon AU</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Laracon EU</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Laracon India</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Larabelles</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Careers</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Jobs</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Forums</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Trademark</a>
+                </div>
+            </div>
+    
+            <div class="w-1/6 mt-[95px] flex flex-col items-center max-[700px]:w-1/2">
+                <h1 class="text-center text-xl font-teko">PARTNERS</h1>
+                <div class="mt-10 flex flex-col">
+                    <a class="font-teko text-l text-gray-800" href="#">Vehikl</a>
+                    <a class="font-teko text-l text-gray-800" href="#">WebReinvent</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Tighten</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Bacancy</a>
+                    <a class="font-teko text-l text-gray-800" href="#">64 Robots</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Active Logic</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Black Airplane</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Byte 5</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Curotec</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Cyber-Duck</a>
+                    <a class="font-teko text-l text-gray-800" href="#">DevSquad</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Jump24</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Kirschbaum</a>
+                </div>
+            </div>
+    
+            <div class="w-1/6 mt-[95px] flex flex-col items-center max-[700px]:w-1/2">
+                <h1 class="text-center text-xl font-teko">ECOSYSTEM</h1>
+                <div class="mt-10 flex flex-col">
+                    <a class="font-teko text-l text-gray-800" href="#">Breeze</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Cashier</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Dusk</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Echo</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Envoyer</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Forge</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Herd</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Horizon</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Inertia</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Jetstream</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Livewire</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Nova</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Octane</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Pennant</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Pint</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Prompts</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Pulse</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Reverb</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Sail</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Sanctum</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Scout</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Socialite</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Spark</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Telescope</a>
+                    <a class="font-teko text-l text-gray-800" href="#">Vapor</a>
+    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="flex w-full justify-center mt-10 p-5">
+        <div class="border-t w-4/5 ml-[80px] max-[1000px]:w-full max-[1000px]:ml-0">
+            <div class="w-1/5 mt-5 max-[1000px]:w-full">
+                <p class="font-teko text-xl text-gray-800">Laravel is a Trademark of Laravel Holdings Inc.
+                    Copyright © 2011-2024 Laravel Holdings Inc.
+                    
+                    Code highlighting provided by Torchlight</p>
+            </div>
+                
+        </div>
+    </div>
+    
+
+    <script src="/dist/js/script.js"></script>
+</body>
+
+</html>
